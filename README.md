@@ -14,7 +14,7 @@ npm run build
 
 ## Using the bundled plugin
 
-The output MyST anywidget can be loaded into a MyST project via an `anywidget` directive. You can publish the built plugin to a public artifact repository, such as a GitHub release artifact, and users can directly link to it in their anywidget directive:
+The output MyST anywidget can be loaded into a MyST project via an `anywidget` directive. You can publish the built plugin to a public artifact repository, such as a GitHub Release artifact, and users can directly link to it in their anywidget directive:
 
 ```yaml
 project:
