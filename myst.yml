@@ -1,0 +1,10 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: JS Anywidget
+  toc:
+    - file: content/index.md
+site:
+  template: book-theme
+  options:
+    logo_text: JS Anywidget

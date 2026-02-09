@@ -1,0 +1,19 @@
+{
+  "name": "example-js-anywidget",
+  "version": "1.0.0",
+  "main": "dist/plugin.mjs",
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "0.25.4"
+  },
+  "scripts": {
+	  "build": "esbuild widget.mjs --bundle --outfile=dist/widget.mjs --format=esm"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4"
+  }
+}
+
